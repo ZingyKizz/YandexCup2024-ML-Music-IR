@@ -24,17 +24,17 @@
 
 ## Подготовка данных
 
-1. Скачайте чекпоинты и данные по ссылкам, предоставленным организаторами, и поместите их в корень репозитория:
+1. Скачайте чекпоинты и данные по ссылкам, и поместите их в корень репозитория:
 
     - [Чекпоинты](https://disk.yandex.ru/d/l2WDOIOUNAkHFw)
     - [Данные](https://disk.yandex.ru/d/1ULcrmDN273rkA)
 
 2. Распакуйте скачанные архивы:
 
-    ```bash
-    unzip artifacts_hgnetv2_b5_metric_learning_big_margin_drop_cliques_test_0_6_6folds02_19_23.zip
-    unzip data.zip
-    ```
+ ```bash
+ unzip artifacts_hgnetv2_b5_metric_learning_big_margin_drop_cliques_test_0_6_6folds02_19_23.zip
+ unzip data.zip
+ ```
 
 ## Запуск
 
