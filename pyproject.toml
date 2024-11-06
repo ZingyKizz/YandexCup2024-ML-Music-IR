@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "csi"
+version = "0.0.1"
+description = ""
+authors = ["Yaroslav Khnykov <yaroslav.khnykov@yandex.ru>"]
+readme = "README.md"
+
+packages = [
+    { include = "csi" }
+]
+
+include = [
+    "../*.md",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+hydra-core = "^1.3.2"
+numpy = "1.26.4"
+black = "^24.10.0"
+isort = "^5.13.2"
+scikit-learn = "^1.5.2"
+torchinfo = "^1.8.0"
+timm = "^1.0.11"
+pytorch-metric-learning = "^2.6.0"
+polars = "^1.12.0"
+torchmetrics = "^1.4.0.post0"
+lion-pytorch = "^0.2.2"
+torch-ema = "^0.3"
+mlflow = "^2.15.1"
+python-dotenv = "^1.0.1"
+poethepoet = "^0.27.0"
+torch = "=2.5.0"
+torchvision = "=0.20.0"
+
+[tool.poe.tasks]
+torch-cuda = "python -m pip install torch==2.5.0 torchvision==0.20.0 --force-reinstall --index-url https://download.pytorch.org/whl/cu124"
